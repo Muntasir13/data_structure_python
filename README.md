@@ -1,2 +1,2 @@
-# data_structure_python
-Python implementation of Data Structure -> Linked List, Binary Search Tree, Queue, Stack, Hash Table
+# Data Structure Implementation in Python
+Implementation of Data Structure in Python for Linked List, Binary Search Tree, Queue, Stack, Hash Table
