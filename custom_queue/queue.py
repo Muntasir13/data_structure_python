@@ -9,7 +9,7 @@ class Queue:
     head_node: Optional[NormalNode] = None
     tail_node: Optional[NormalNode] = None
 
-    def insert(self, data: Any, **kwargs):
+    def insert(self, data: Any, **kwargs) -> None:
         """Insert data to queue
 
         Args:
@@ -23,8 +23,12 @@ class Queue:
         self.tail_node = self.tail_node.next_node
         return None
 
-    def pop(self):
-        """Remove last element from queue"""
+    def pop(self) -> NormalNode:
+        """Remove last element from queue
+
+        Returns:
+            NormalNode: the last node of queue
+        """
         if self.head_node is None:
             return None
         removed = self.head_node
@@ -35,7 +39,7 @@ class Queue:
 
     @staticmethod
     def show_current_status(node: Union[TreeNode, NormalNode]) -> None:
-        """Print the current status of the linked list
+        """Print the current status of the queue
 
         Args:
             node (Union[TreeNode, NormalNode]): current node

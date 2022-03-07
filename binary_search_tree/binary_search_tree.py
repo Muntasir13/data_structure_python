@@ -35,7 +35,7 @@ class BinarySearchTree:
 
     @staticmethod
     def show_current_status(node: Union[TreeNode, NormalNode]) -> None:
-        """Print the current status of the linked list
+        """Print the current status of the binary search tree
 
         Args:
             node (Union[TreeNode, NormalNode]): current node
