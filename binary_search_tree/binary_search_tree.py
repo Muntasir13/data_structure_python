@@ -13,7 +13,7 @@ class BinarySearchTree:
 
         Args:
             data (Any): the data to be inserted
-            node (Optional[TreeNode], optional): the node in which the data is to be inserted. Defaults to None.
+            node (Optional[TreeNode], optional): the node in which the data is to be inserted. Defaults to root node.
         """
         if self.root is None:
             self.root = TreeNode(data)
